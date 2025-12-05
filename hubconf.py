@@ -5,7 +5,7 @@ from typing import Optional
 dependencies = ['torch']
 
 
-def vjepa2_ac_droid(pretrained: bool = True, checkpoint_step: int = 1000, map_location: str = 'cpu'):
+def vjepa2_ac_droid(pretrained: bool = True, checkpoint_step: int = 223, map_location: str = 'cpu'):
     """
     V-JEPA2-AC model fine-tuned on DROID dataset with LoRA
 
