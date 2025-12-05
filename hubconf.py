@@ -1,6 +1,7 @@
 import torch
 from typing import Optional
 
+
 dependencies = ['torch']
 
 
